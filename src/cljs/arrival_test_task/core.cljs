@@ -32,7 +32,7 @@
                                        :margin "16px"
                                        :resize "both"
                                        :overflow "auto"}}
-        ;; T
+        ;; TODO: add logic so that when there is enough space long-lorem text is displayed, otherwise display short-lorem text
         (if (= (:lorem @state) :short)
                                 short-lorem
                                 long-lorem)]])))
